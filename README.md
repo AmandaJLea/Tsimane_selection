@@ -12,7 +12,7 @@ This manuscript uses an integrative dataset of genomic, transcriptomic, and immu
 The analyses that are described here are:
 
 1) Processing Tsimane genotype data generated on the MEGA array for selection analyses (see genotype_processing.sh, PCRelate.R)
-2) Calculating iHS, XP-EHH, and PBS from genotype data (see run_PBS_iHS_XP.sh) and combining these results to identify candidate regions for selection (identify_candidate_regions.R)
+2) Calculating iHS, XP-EHH, and PBS from genotype data (see run_PBS_iHS_XP.sh) and combining these results to identify candidate regions for selection (see identify_candidate_regions.R)
 4) Correlating SNPs within candidate regions with transcriptomic and phenotypic data (see RNAseq_processing.R, test_for_eQTL_LMM.R, test_for_associations_LMM.R)
 5) Performing analyses of polygenic selection (see polygenic_selection_UKBB.R, polygenic_selection_VIPs.R)
 6) Simulating genomic data generated from neutral demographic processes to compare to the observed data (see get_neutral_regions_for_demography.sh, demography.sh, compare_obs_sim_demography.R)
